@@ -1,0 +1,7 @@
+pipenv run http  get http://127.0.0.1:8000
+геты с сервера
+pipenv run http  get head http://127.0.0.1:8000
+
+
+ран сервера
+py src/manage.py runserver
