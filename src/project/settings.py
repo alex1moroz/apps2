@@ -12,9 +12,7 @@ DEBUG = getenv("DJANGO_DEBUG", "") == "TRUE"
 ALLOWED_HOSTS = [
     "127.0.0.1",
     "localhost",
-    "sidorov-dev.herokuapp.com",
-    "sidorov.dev",
-    "www.sidorov.dev",
+    "alexapp1212.herokuapp.com",
 ]
 
 INTERNAL_IPS = [
