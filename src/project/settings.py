@@ -7,7 +7,7 @@ REPO_DIR = BASE_DIR.parent.resolve()
 
 SECRET_KEY = "1"
 
-DEBUG = getenv("DJANGO_DEBUG", "") == "TRUE"
+DEBUG = 1#getenv("DJANGO_DEBUG", "") == "TRUE"
 
 ALLOWED_HOSTS = [
     "127.0.0.1",

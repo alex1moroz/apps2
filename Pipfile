@@ -16,6 +16,8 @@ gunicorn = "*"
 requests = "*"
 uvicorn = "*"
 whitenoise = "*"
+httpie = "*"
+pudb = "*"
 
 [requires]
 python_version = "3.8"
